@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine;
 
-namespace MonkePhoneNet.Behaviours
+namespace BoxNet
 {
-    public class NetPhone
+    public class NetPhone : MonoBehaviour
     {
-        
+
     }
 }

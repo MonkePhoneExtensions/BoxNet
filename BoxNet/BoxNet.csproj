@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <Reference Include="MonkePhone">
+		  <HintPath>$(PluginsPath)\MonkePhone.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BoxApps">
+		  <HintPath>$(PluginsPath)\BoxApps.dll</HintPath>
+	  </Reference>
     <Reference Include="0Harmony">
       <HintPath>$(BepInExAssemblyPath)\0Harmony.dll</HintPath>
     </Reference>
@@ -28,9 +34,6 @@
     </Reference>
     <Reference Include="clipper_library">
       <HintPath>$(GameAssemblyPath)\clipper_library.dll</HintPath>
-    </Reference>
-    <Reference Include="MonkePhone">
-      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\BepInEx\plugins\Dev\MonkePhone.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Security">
       <HintPath>$(GameAssemblyPath)\Mono.Security.dll</HintPath>
